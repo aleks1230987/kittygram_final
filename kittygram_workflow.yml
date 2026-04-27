@@ -135,4 +135,3 @@ jobs:
             - ${{ secrets.DOCKER_USERNAME }}/kittygram_backend
             - ${{ secrets.DOCKER_USERNAME }}/kittygram_frontend
             - ${{ secrets.DOCKER_USERNAME }}/kittygram_gateway
-            Ветка: main

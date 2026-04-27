@@ -130,9 +130,8 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            ✅ Kittygram CI/CD завершён успешно!
+            Kittygram CI/CD завершён успешно!
             Образы обновлены на Docker Hub:
             - ${{ secrets.DOCKER_USERNAME }}/kittygram_backend
             - ${{ secrets.DOCKER_USERNAME }}/kittygram_frontend
             - ${{ secrets.DOCKER_USERNAME }}/kittygram_gateway
-            Ветка: main
